@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/daromlop/cryptoapp/static/css/main.442539e4.css",
+    "main.js": "/daromlop/cryptoapp/static/js/main.6329b51f.js",
+    "index.html": "/daromlop/cryptoapp/index.html",
+    "main.442539e4.css.map": "/daromlop/cryptoapp/static/css/main.442539e4.css.map",
+    "main.6329b51f.js.map": "/daromlop/cryptoapp/static/js/main.6329b51f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.442539e4.css",
+    "static/js/main.6329b51f.js"
+  ]
+}
