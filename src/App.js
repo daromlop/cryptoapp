@@ -5,8 +5,8 @@ import Show from "./pages/Show";
 function App() {
   return (
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="/:id" element={<Show />} />
+      <Route path="/cryptoapp" index element={<Home />} />
+      <Route path="/cryptoapp/:id" element={<Show />} />
     </Routes>
   );
 }

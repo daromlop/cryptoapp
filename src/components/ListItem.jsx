@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import btcimg from "../images/bitcoin.webp";
 
 const ListItem = ({ coin }) => {
   return (
     <div className="home__crypto">
-      <Link to={`/${coin.id}`}>
+      <Link to={`${coin.id}`}>
         <span className="crypto__image">
           <img src={coin.image} />
         </span>
@@ -13,7 +14,7 @@ const ListItem = ({ coin }) => {
         {coin.priceBtc && (
           <span className="crypto__prices">
             <span className="prices__btc">
-              <img src="/bitcoin.webp" />
+              <img src={btcimg} />
               {coin.priceBtc} BTC
             </span>
             <span className="prices__eur">{coin.priceEur} EUR</span>
