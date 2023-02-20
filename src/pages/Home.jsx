@@ -49,7 +49,7 @@ const Home = () => {
             />
           </svg>
         </div>
-        <p>(Consultas limitadas a 30 por minuto, sino funciona, esperar 2 minutos y recargar la web)</p>
+        <p>(Consultas limitadas a 30 por minuto, si no funciona, esperar 2 minutos y recargar la web)</p>
       </div>
       <div className="home__cryptos">
         <div className="width">
